@@ -1,0 +1,1673 @@
+path,label,class_name
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_239.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_250.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_371.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1070.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_508.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_281.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_15.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_665.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_605.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1024.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_611.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_222.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1066.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_105.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_526.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_133.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_513.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_166.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_786.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_313.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_617.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_183.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_576.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_357.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_705.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_815.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_396.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_847.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_96.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_357.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_29.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1077.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_85.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_678.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_930.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_504.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_266.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_796.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_122.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_756.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_223.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_333.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_264.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1038.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_239.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_445.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_311.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_490.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_503.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_653.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_776.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_409.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_394.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_113.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_362.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_42.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_464.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_286.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_285.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_594.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_457.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_459.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_577.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_386.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_280.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_507.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_871.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_146.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_784.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_44.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_923.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_316.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_852.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1224.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_591.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_6.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_510.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_654.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_481.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_502.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_629.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_670.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_322.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_927.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_732.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_250.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_188.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1282.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_314.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_479.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_367.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1103.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_113.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_554.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_260.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_56.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_79.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_21.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_56.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_585.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_61.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_394.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_487.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_880.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_280.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_839.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_767.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_300.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_569.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_515.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_198.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_397.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_89.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1289.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_33.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_549.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_852.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_337.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1017.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_7.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_982.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_473.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_29.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_208.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_419.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1054.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_992.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_182.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_328.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_28.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_127.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_315.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_40.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_249.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_299.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_18.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1063.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/test/mildew_test/mildew_test_32.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_128.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_400.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1288.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_728.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_451.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_33.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_609.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_554.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_503.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_661.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1019.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_589.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_288.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_474.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_371.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_734.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_558.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1006.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_462.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_349.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_283.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_121.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_57.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_256.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_929.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_517.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1099.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_554.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1279.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_201.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_527.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1003.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_485.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_857.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_111.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_380.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_763.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_728.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_624.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_267.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_285.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_225.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/valid/mildew_valid/mildew_test_16.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_580.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_241.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_482.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_288.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_186.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_675.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1077.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_110.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_886.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_240.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_593.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_615.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_256.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_235.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_244.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_58.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_244.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_926.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1018.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_328.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_48.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_657.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_951.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_470.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_224.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_977.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_796.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_943.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_214.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_532.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1074.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_78.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_251.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_342.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_557.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_478.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_67.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_759.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_736.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_652.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_10.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_169.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/test/brown_rust_test/brown_rust_test_25.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_207.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_489.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_35.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_334.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_175.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1160.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_31.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_253.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_246.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_172.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_651.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_378.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1051.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_540.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_557.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1309.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1080.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_565.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_582.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_458.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_301.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_254.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_45.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_720.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_568.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_937.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_684.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_529.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_57.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_776.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_937.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1002.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_161.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_4.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_431.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_576.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1297.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_152.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_144.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_332.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_46.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_538.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_813.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_340.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1081.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_607.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_711.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_174.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_526.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_958.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_9.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_637.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_174.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_68.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/test/brown_rust_test/brown_rust_test_21.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_224.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_723.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_86.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_60.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_414.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_229.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_492.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_461.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_246.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_415.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_909.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_716.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_317.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_315.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_70.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_463.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_29.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_405.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/test/fusarium_head_blight_test/fusarium_head_blight_test_6.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_517.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_846.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_217.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_502.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_941.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1180.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_302.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_282.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_107.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_118.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_702.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_209.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_982.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_145.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_867.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_254.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_206.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_419.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_663.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_525.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_634.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_493.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_372.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1013.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_551.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_886.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_766.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_625.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_373.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_545.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_62.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_753.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_899.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/test/mildew_test/mildew_test_30.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_768.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_120.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_965.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_204.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_31.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1077.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_127.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_138.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_66.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_268.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_561.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_405.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_26.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_550.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_765.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_521.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_71.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1236.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_208.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_514.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_319.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_41.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_553.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_346.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_94.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1234.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_596.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1120.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_285.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/valid/yellow_rust_valid/yellow_rust_test_1.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_452.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_461.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_25.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1055.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_168.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_981.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1164.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_201.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1147.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_140.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_338.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_264.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_357.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_407.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_767.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_519.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_695.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_821.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_378.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_585.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_505.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_623.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_471.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_592.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_60.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_934.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_705.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_567.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1064.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_468.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_659.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_132.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_204.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_230.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_143.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_502.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_294.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_760.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_460.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_561.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1091.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_181.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_464.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_740.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_682.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_72.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_705.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_218.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_89.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_611.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/test/healthy_test/healthy_test_30.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_26.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_274.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_281.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_343.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_429.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1183.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_179.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_387.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_448.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_405.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_922.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_202.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_224.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_927.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_759.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1041.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_725.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1095.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_401.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_247.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_646.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_922.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_56.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_451.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_460.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_623.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_494.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_543.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_274.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_195.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_100.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_920.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_192.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_175.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_537.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_705.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_228.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_10.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_489.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_49.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1068.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_42.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_275.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_471.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_365.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1068.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_617.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_825.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_610.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_963.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_42.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_861.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_253.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_216.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_690.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_243.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_394.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_737.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_916.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_726.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_233.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_55.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_791.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_868.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_979.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_388.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_996.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_367.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_684.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_778.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_371.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_640.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_775.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_548.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_505.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_509.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_581.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1070.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_260.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_611.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_493.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_445.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_405.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_86.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_746.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_719.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_208.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1107.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_714.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_286.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_843.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_177.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_70.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_658.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_369.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1134.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_325.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_342.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_614.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_687.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_841.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_178.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_849.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_580.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_265.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_415.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_182.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_94.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_302.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_102.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_460.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1229.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_458.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_694.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_447.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_647.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_32.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_494.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_520.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_820.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_275.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_754.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_647.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_199.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_57.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_92.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_774.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_125.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_333.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_490.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1219.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_325.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_886.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_179.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_193.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_351.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1136.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_143.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_710.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_333.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_107.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_794.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_468.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_610.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_635.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_242.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_520.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1026.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_809.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_184.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_76.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_731.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_473.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_291.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_768.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_368.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/test/healthy_test/healthy_test_22.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_335.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_900.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_177.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_276.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_147.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_650.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_74.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_417.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1165.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_748.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_110.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_125.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_969.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_792.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_122.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_264.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_467.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_591.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_236.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_239.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/test/yellow_rust_test/yellow_rust_test_25.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1055.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_141.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_680.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_848.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_772.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_925.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_719.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_389.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_570.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1067.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_715.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_100.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_904.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_299.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_405.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_463.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_199.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_283.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_481.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_475.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1182.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_456.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_765.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1111.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_522.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_639.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_489.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_196.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_802.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_597.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_309.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_262.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_374.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_433.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_723.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_318.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_245.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_242.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_602.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_392.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_527.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_303.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_93.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_333.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_524.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_497.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_22.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_535.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_456.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_11.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_8.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_531.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_365.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_393.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_827.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_572.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_454.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_120.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_754.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_0.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_810.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_100.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_141.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_101.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_364.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1193.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_298.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_72.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_589.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1263.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_407.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_384.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_513.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_644.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_543.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_851.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_586.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_82.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_603.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_487.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_165.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_842.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1262.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_269.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_289.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_499.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1183.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_439.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_701.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_202.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_883.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_257.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_453.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_855.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_85.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_722.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_584.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_82.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_151.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1107.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_469.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1162.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_544.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_50.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_150.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_400.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_777.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_440.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_410.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1003.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_418.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_494.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_798.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_342.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_764.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_93.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_708.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_347.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_538.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_551.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_593.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_469.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_21.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_892.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_137.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_977.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_677.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_579.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_214.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_184.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1098.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_493.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1194.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_270.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_229.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_445.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_715.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/test/yellow_rust_test/yellow_rust_test_42.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_39.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_535.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_112.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_402.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_214.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_34.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_837.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1015.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_597.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_938.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_572.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_315.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_832.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/test/yellow_rust_test/yellow_rust_test_44.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_229.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_330.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1062.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_285.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_461.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_104.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_332.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_550.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_244.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_465.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_585.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_435.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1102.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_449.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_241.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1184.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_374.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_351.png,2,blast
+/home/adityaraut/Documents/research_paper/data/test/brown_rust_test/brown_rust_test_13.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_220.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_850.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/test/fusarium_head_blight_test/fusarium_head_blight_test_22.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_560.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_449.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_566.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_498.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_685.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_349.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_677.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_784.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_573.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_13.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_60.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_346.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_614.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_680.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_169.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_67.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1294.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_334.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_108.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_179.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_93.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_561.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_504.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/valid/brown_rust_valid/brown_rust_test_30.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_147.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_178.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_562.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_141.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_674.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_468.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_369.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_79.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1093.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_504.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_56.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_61.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_334.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_966.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_309.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_445.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_25.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_228.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_430.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_609.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_133.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_390.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_361.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_727.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_256.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_769.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_536.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_483.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_307.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_673.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_899.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/test/brown_rust_test/brown_rust_test_26.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_656.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_137.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_39.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_609.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_184.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_576.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_781.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_870.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_101.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_259.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_340.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_580.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_755.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_401.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_298.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_265.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_612.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_320.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_506.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_575.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_309.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_567.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_913.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_593.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_253.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_352.png,2,blast
+/home/adityaraut/Documents/research_paper/data/valid/brown_rust_valid/brown_rust_test_33.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_6.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/test/healthy_test/healthy_test_18.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_379.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_423.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_5.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_872.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_459.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_451.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_789.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_16.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_539.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_114.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1042.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_882.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_87.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/test/brown_rust_test/brown_rust_test_23.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_610.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_54.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_223.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_332.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_205.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_509.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_591.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_459.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_55.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/valid/fusarium_head_blight_valid/fusarium_head_blight_test_34.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_255.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_668.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_126.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_546.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/test/fusarium_head_blight_test/fusarium_head_blight_test_3.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_198.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_930.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_22.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_40.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_292.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_380.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_783.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_790.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_54.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_163.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_348.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_636.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_524.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_362.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_820.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_869.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_303.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_409.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_63.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_510.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_180.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_170.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_470.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1091.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_154.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_358.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_687.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_53.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_392.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_591.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_451.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_641.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_402.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_712.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_601.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_911.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_777.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_970.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_525.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_770.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_181.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_546.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_555.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_908.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1011.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_679.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1194.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_182.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_54.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1008.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_252.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_119.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1008.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_547.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_596.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1202.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_96.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_144.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_153.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_745.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_388.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_5.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_773.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_402.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_176.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_462.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_387.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_380.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1130.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_162.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_397.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_724.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_675.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_532.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_197.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_77.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_562.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_103.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1010.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_909.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_637.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_348.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_975.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_279.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_102.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_910.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_759.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_886.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1231.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_120.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_872.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_313.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_230.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_594.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_158.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_92.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1004.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_774.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_245.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_354.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_542.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_810.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_569.png,2,blast
+/home/adityaraut/Documents/research_paper/data/test/yellow_rust_test/yellow_rust_test_40.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_689.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_693.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1203.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_156.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_500.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_245.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1023.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_496.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_783.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_12.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_875.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_917.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/valid/yellow_rust_valid/yellow_rust_test_12.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_262.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_614.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_564.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_661.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_198.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_550.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_598.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_326.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_697.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_777.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_409.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_204.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_511.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_153.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1002.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_313.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_469.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_413.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_545.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_366.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_995.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_302.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_122.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_12.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_755.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_345.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_171.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_177.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1092.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_120.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/test/brown_rust_test/brown_rust_test_11.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1183.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_833.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1090.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_608.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_558.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1260.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_332.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_602.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_890.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_552.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_663.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_86.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1053.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1114.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_66.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_485.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_522.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1034.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_617.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_581.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_745.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_186.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_777.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_1.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_364.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_939.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_423.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_578.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_160.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_504.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_7.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_830.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_382.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_360.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_488.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_25.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_399.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_474.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_33.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_135.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_730.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_45.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_10.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_305.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_181.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_383.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1040.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1015.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_139.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_35.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1142.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_486.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_475.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_74.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_106.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_464.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_155.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_10.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_189.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_184.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_292.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_206.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1156.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_432.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_176.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_363.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_928.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_533.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_63.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_231.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_76.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_550.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_94.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_341.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_570.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_267.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/test/fusarium_head_blight_test/fusarium_head_blight_test_27.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_834.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_709.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_819.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1028.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_734.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_106.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_260.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_368.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_437.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_213.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_839.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_133.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_438.png,2,blast
+/home/adityaraut/Documents/research_paper/data/valid/mildew_valid/mildew_test_6.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_73.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_82.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_318.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_687.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_479.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_266.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_2.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_131.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_587.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_648.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1049.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_666.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_535.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_643.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_708.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_923.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_544.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1108.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_66.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_280.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_874.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_353.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_118.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_529.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_581.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_95.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_270.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_336.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_588.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_570.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_395.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_666.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1007.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_218.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_350.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1025.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_38.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_156.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1247.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_537.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_331.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_170.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_75.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_227.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_326.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_587.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_284.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1261.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_863.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_372.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_171.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_723.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_658.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_893.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_978.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_455.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_691.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_185.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_496.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_372.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_226.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_12.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_668.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_180.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_841.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_556.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_293.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_91.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_921.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_492.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_83.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_521.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_949.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_369.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_371.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_252.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_810.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_276.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_745.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_145.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_292.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_513.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_681.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_511.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_81.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_491.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_309.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_128.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_815.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_335.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_562.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_559.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1181.png,11,smut
+/home/adityaraut/Documents/research_paper/data/test/healthy_test/healthy_test_5.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_808.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_609.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_881.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_261.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_102.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1197.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_14.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1243.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_644.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_61.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_155.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_217.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_473.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_77.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_695.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_235.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_216.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_728.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_511.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_163.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1095.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_121.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_780.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_708.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1184.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_582.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_674.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_622.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_363.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/test/fusarium_head_blight_test/fusarium_head_blight_test_23.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_423.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_284.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_356.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_826.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_266.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_547.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_30.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_416.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_241.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_631.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_599.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_152.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_289.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_593.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_641.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_206.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_562.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_515.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_989.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_801.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_496.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_164.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_123.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_332.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_209.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_181.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_438.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1011.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_586.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_421.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_590.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_234.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_529.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1040.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_98.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_83.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_477.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_503.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_371.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_645.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_219.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_216.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_14.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_740.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_876.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_183.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_373.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_19.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1022.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_561.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_465.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_398.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_658.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_319.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_225.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_856.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/test/mildew_test/mildew_test_41.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_600.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_413.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_55.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_492.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_325.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_565.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_463.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_460.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_511.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1191.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_503.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_109.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_396.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_422.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_932.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_980.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_93.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_532.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_437.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1027.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_679.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_301.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_354.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_649.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_986.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_657.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_442.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_327.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1204.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_78.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_319.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_660.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1119.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1240.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_223.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_283.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_420.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_596.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_194.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_641.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_421.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_202.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_438.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_333.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_285.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_760.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1020.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_222.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_908.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_470.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_147.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_804.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_201.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1159.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_692.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_949.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_146.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_249.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_397.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_706.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_281.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_534.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1079.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_740.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/valid/healthy_valid/healthy_test_48.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1130.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1092.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_802.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_176.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_708.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_662.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_569.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1074.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_366.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_61.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_268.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_280.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_446.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_267.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_348.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_182.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_174.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_78.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_389.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_321.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_65.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_954.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_268.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_704.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_174.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_263.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_112.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_514.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_972.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1050.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_888.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_571.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1222.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_499.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_475.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_399.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_125.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_740.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_319.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_378.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_948.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1102.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_330.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_4.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_539.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_523.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_461.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_156.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_650.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_757.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_879.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_387.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1212.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_829.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_370.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_4.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_563.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_476.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_142.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_47.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_998.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_915.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_394.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_627.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_570.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_381.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_845.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_136.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_655.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_418.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_368.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_625.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_758.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_576.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_756.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_772.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_814.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_505.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_73.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_78.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_117.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_236.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_577.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_726.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_255.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_60.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_393.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/valid/mildew_valid/mildew_test_8.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_102.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_211.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_190.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_413.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_389.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1301.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_359.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_560.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_159.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_405.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_540.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_622.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_53.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_129.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_186.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_182.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_95.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_956.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1299.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_851.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_344.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_845.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_264.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_905.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_139.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_354.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_294.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_763.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_556.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_19.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_25.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_556.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_329.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_584.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/test/healthy_test/healthy_test_16.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_505.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_156.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_194.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_530.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_691.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1173.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_484.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_441.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_141.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1248.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_197.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_55.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_327.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1022.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_129.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1116.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1149.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_734.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_440.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_592.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_115.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_167.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_346.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_321.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_879.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_816.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_489.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_656.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_291.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_600.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_137.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_131.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_488.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_183.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1059.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_220.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_401.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_435.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_217.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_2.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_461.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_400.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_520.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_471.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_525.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_21.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_286.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_939.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_379.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_85.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_409.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_255.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_575.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_72.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_490.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_110.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_192.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_853.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_123.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_194.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_105.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1184.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_288.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_807.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_828.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_203.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_950.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_469.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_731.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_891.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_294.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1176.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_374.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_824.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_870.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_550.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_47.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_575.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_370.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_466.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_920.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_826.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_566.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_587.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_596.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_624.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_313.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_541.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_165.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_85.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_598.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/valid/yellow_rust_valid/yellow_rust_test_13.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_921.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_627.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_171.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_294.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_474.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_991.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_30.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_199.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_636.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_549.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1296.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_271.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_652.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_297.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_379.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_779.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_601.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_838.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_1057.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_589.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_309.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1069.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_357.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_668.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_1061.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_400.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_1147.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_635.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_310.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_707.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_762.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_382.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_681.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Stem fly/stem_fly_207.png,12,stem_fly
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_368.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_54.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_762.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_239.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_458.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_625.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_131.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_134.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_278.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Mildew/mildew_523.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/train/Fusarium Head Blight/fusarium_head_blight_571.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_31.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_410.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/valid/brown_rust_valid/brown_rust_test_46.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_502.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_614.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_20.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_671.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_417.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/valid/healthy_valid/healthy_test_33.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_133.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_336.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_162.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_118.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_1122.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_315.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_477.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_349.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_183.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Mite/mite_156.png,9,mite
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_58.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/test/brown_rust_test/brown_rust_test_14.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_749.png,7,leaf_blight
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_315.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_609.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_609.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_665.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Black Rust/black_rust_204.png,1,black_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_157.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_268.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_710.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_16.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/test/mildew_test/mildew_test_40.png,8,mildew
+/home/adityaraut/Documents/research_paper/data/test/fusarium_head_blight_test/fusarium_head_blight_test_20.png,5,fusarium_head_blight
+/home/adityaraut/Documents/research_paper/data/train/Brown Rust/brown_rust_272.png,3,brown_rust
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_22.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_843.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Healthy/healthy_762.png,6,healthy
+/home/adityaraut/Documents/research_paper/data/train/Smut/smut_1104.png,11,smut
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_46.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Yellow Rust/yellow_rust_224.png,14,yellow_rust
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_541.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Blast/blast_45.png,2,blast
+/home/adityaraut/Documents/research_paper/data/train/Aphid/aphid_848.png,0,aphid
+/home/adityaraut/Documents/research_paper/data/train/Tan spot/tan_spot_244.png,13,tan_spot
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_557.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Common Root Rot/common_root_rot_56.png,4,common_root_rot
+/home/adityaraut/Documents/research_paper/data/train/Septoria/septoria_177.png,10,septoria
+/home/adityaraut/Documents/research_paper/data/train/Leaf Blight/leaf_blight_718.png,7,leaf_blight

@@ -1,0 +1,31 @@
+DATA AUDIT REPORT
+Date: 2026-05-07 23:20:54
+==================================================
+Total images           : 14154
+Exact duplicate groups : 1845
+Redundant images       : 3011
+Cross-split leak groups: 588
+Leaked image instances : 1642
+Leakage %              : 11.60%
+
+Cross-split leaks (sample, first 20):
+  Hash cecdae5fdb0f... → aphid_106.png(train), aphid_107.png(train), aphid_28.png(train), aphid_28.png(test)
+  Hash 469c0bb77e25... → aphid_27.png(train), aphid_27.png(test)
+  Hash dfaa8e8bf074... → aphid_29.png(train), aphid_29.png(test)
+  Hash 5b44f8fc7b6a... → aphid_30.png(train), aphid_30.png(test)
+  Hash c70d6255788a... → aphid_31.png(train), aphid_31.png(test)
+  Hash 9dfdeadbc3d1... → aphid_32.png(train), aphid_32.png(test)
+  Hash f7e65f3d2f10... → aphid_33.png(train), aphid_33.png(test)
+  Hash 4dce295adc45... → aphid_34.png(train), aphid_34.png(test)
+  Hash 685e62123429... → aphid_35.png(train), aphid_35.png(test)
+  Hash d7071be8f04c... → aphid_36.png(train), aphid_36.png(test)
+  Hash 528fde9774ec... → aphid_37.png(train), aphid_37.png(test)
+  Hash be8d066473d8... → aphid_38.png(train), aphid_38.png(test)
+  Hash 590e36e07871... → aphid_39.png(train), aphid_39.png(test)
+  Hash 2eee05053107... → aphid_40.png(train), aphid_40.png(test)
+  Hash 68567245b881... → aphid_41.png(train), aphid_41.png(test)
+  Hash 7e8a7c2be02e... → aphid_42.png(train), aphid_42.png(test)
+  Hash 882f36c6ff06... → aphid_43.png(train), aphid_43.png(test)
+  Hash 50a47e4573d1... → aphid_44.png(train), aphid_44.png(test)
+  Hash 70f4f336075a... → aphid_45.png(train), aphid_45.png(test)
+  Hash af062f98be53... → aphid_46.png(train), aphid_46.png(test)
