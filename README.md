@@ -26,6 +26,12 @@ We challenge the prevailing narrative that certain architectures, like MobileNet
 ### 3.1 Dataset Composition and 11.6% Leakage Discovery
 The primary dataset consists of 14,154 images across 15 distinct classes of wheat health and disease state (e.g., *Healthy*, *Yellow Rust*, *Tan Spot*, *Septoria*). Using MD5 hashing and Perceptual Hashing (pHash), we identified that 11.6% of the commonly cited wheat dataset samples were cross-split "twins." This contamination allows models to achieve inflated benchmark estimates via memorization. We reconstructed a "Clean" (Non-Leaky) dataset using a stratified 70/15/15 split, which serves as the rigorous baseline for our subsequent quantization experiments.
 
+![Class Distribution - Leaky Dataset](leaky/class_distribution.png)
+*Figure 3.1: Class distribution of the original leaky dataset.*
+
+![Class Distribution - Clean Dataset](non-leaky/class_distribution.png)
+*Figure 3.2: Class distribution of the reconstructed clean dataset.*
+
 ### 3.2 Imbalance Mitigation and Statistical Validation
 To handle class imbalance inherent in the deduplicated 15-class set (imbalance ratio of ~4.1x), we implemented **Class-Weighted Cross-Entropy Loss**. Loss weights were calculated inversely to the training counts: $w_i = N / (C \times n_i)$, where $N$ is the total samples, $C$ the number of classes, and $n_i$ the count for class $i$.
 
@@ -48,9 +54,18 @@ The primary technical contribution of this study is the development of a **Host-
 ### 4.4 Training Protocol
 Models were trained for 30 epochs using the AdamW optimizer (LR=1e-4). We implemented a **Freeze-then-Finetune** strategy: the pre-trained backbone was frozen for the first 5 epochs, allowing the randomly initialized classification head to converge without distorting pre-trained feature maps. This was followed by a full unfreeze and a **Cosine Annealing Learning Rate Schedule** for the remaining 25 epochs. This approach ensures a smoother convergence path, particularly for the depthwise-separable layers of MobileNetV3, which are sensitive to high initial learning rates.
 
+![Training Curves](non-leaky/training_curves.png)
+*Figure 4.1: Training and validation loss/accuracy curves for the clean dataset.*
+
 ---
 
 ## 5. Contribution C: Edge Deployment Systems Engineering
+![Confusion Matrices](non-leaky/confusion_matrices.png)
+*Figure 5.1: Confusion matrices of models on the clean dataset.*
+
+![Per-Class F1 Heatmap](non-leaky/per_class_f1_heatmap.png)
+*Figure 5.2: Per-class F1-score heatmap across architectures.*
+
 ### 5.1 Framework-Dependent Stability
 Earlier experiments suggested that MobileNetV3 was architecturally fragile to quantization. Our data proves that **Quantization Strategy > Architecture**.
 
@@ -58,6 +73,9 @@ Earlier experiments suggested that MobileNetV3 was architecturally fragile to qu
 | Framework / Method | MobileNetV3-L | ResNet50 | ConvNeXt-Tiny |
 | :--- | :--- | :--- | :--- |
 | **FP32 Baseline (Clean)** | 85.53% | 85.53% | 88.46% |
+![INT8 Accuracy Drop](non-leaky/int8_accuracy_drop.png)
+*Figure 5.3: Accuracy degradation comparison between Dynamic and Calibrated INT8 quantization.*
+
 | **FP16 (Half Precision)** | 85.50% | 85.49% | 88.41% |
 | **Dynamic INT8 (ONNX CPU)**| 31.04% | 79.19% | 88.28% |
 | **Calibrated INT8 (TRT)** | **82.54%** | **82.89%** | **85.05%** |
@@ -76,7 +94,8 @@ This logarithmic scaling of FPS rewards throughput relevant to real-time control
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **MobileNetV3-L** | **INT8** | **18.36 ms** | **54.46 FPS** | **312 MB** | 0.8254 | **3.30** |
 | ResNet50 | INT8 | 35.22 ms | 28.40 FPS | 545 MB | 0.8289 | 2.77 |
-| ConvNeXt-Tiny | INT8 | 94.23 ms | 10.61 FPS | 682 MB | 0.8505 | 2.01 |
+![Benchmarking Results](non-leaky/benchmarking_results.png)
+*Figure 5.4: Throughput and latency benchmarks on NVIDIA Jetson Nano.*
 
 *(Note: DES values recalculated using the ln(FPS) metric: 0.8254 * ln(54.46) ≈ 3.30)*
 
