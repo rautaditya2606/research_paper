@@ -92,3 +92,129 @@ Per-Class F1 drop after INT8:
   stem_fly                       FP32=0.833  INT8=0.873  drop=-0.039
   tan_spot                       FP32=0.597  INT8=0.413  drop=+0.184
   yellow_rust                    FP32=0.970  INT8=0.916  drop=+0.054
+
+======================================================================
+TEST SET RESULTS
+======================================================================
+Accuracy  : 0.8553
+F1 (W)    : 0.8541
+Precision : 0.8548
+Recall    : 0.8553
+AUC       : 0.9879
+
+Per-Class F1:
+  aphid                          0.7857
+  black_rust                     0.7606
+  blast                          0.8352
+  brown_rust                     0.9071
+  common_root_rot                0.8786
+  fusarium_head_blight           0.9223
+  healthy                        0.9533
+  leaf_blight                    0.6442
+  mildew                         0.9357
+  mite                           0.8246
+  septoria                       0.9434
+  smut                           0.7975
+  stem_fly                       0.8333
+  tan_spot                       0.5972
+  yellow_rust                    0.9701
+
+======================================================================
+QUANTISATION RESULTS (INT8)
+======================================================================
+FP32 Accuracy : 0.8553
+INT8 Accuracy : 0.7919
+Drop          : +0.0634
+
+Per-Class F1 drop after INT8:
+  aphid                          FP32=0.786  INT8=0.746  drop=+0.040
+  black_rust                     FP32=0.761  INT8=0.658  drop=+0.103
+  blast                          FP32=0.835  INT8=0.784  drop=+0.052
+  brown_rust                     FP32=0.907  INT8=0.814  drop=+0.093
+  common_root_rot                FP32=0.879  INT8=0.753  drop=+0.126
+  fusarium_head_blight           FP32=0.922  INT8=0.902  drop=+0.020
+  healthy                        FP32=0.953  INT8=0.919  drop=+0.034
+  leaf_blight                    FP32=0.644  INT8=0.523  drop=+0.121
+  mildew                         FP32=0.936  INT8=0.880  drop=+0.056
+  mite                           FP32=0.825  INT8=0.784  drop=+0.040
+  septoria                       FP32=0.943  INT8=0.870  drop=+0.074
+  smut                           FP32=0.797  INT8=0.785  drop=+0.012
+  stem_fly                       FP32=0.833  INT8=0.873  drop=-0.039
+  tan_spot                       FP32=0.597  INT8=0.413  drop=+0.184
+  yellow_rust                    FP32=0.970  INT8=0.916  drop=+0.054
+
+======================================================================
+QUANTISATION RESULTS
+======================================================================
+FP32 Accuracy : 0.8553
+FP16 Accuracy : 0.8541  (drop=+0.0012)
+INT8 Accuracy : 0.7919  (drop=+0.0634)
+
+Per-Class F1 across precisions:
+  aphid                          FP32=0.786  FP16=0.786 (drop=+0.000)  INT8=0.746 (drop=+0.722)
+  black_rust                     FP32=0.761  FP16=0.761 (drop=+0.000)  INT8=0.658 (drop=+0.697)
+  blast                          FP32=0.835  FP16=0.835 (drop=+0.000)  INT8=0.784 (drop=+0.772)
+  brown_rust                     FP32=0.907  FP16=0.907 (drop=+0.000)  INT8=0.814 (drop=+0.844)
+  common_root_rot                FP32=0.879  FP16=0.879 (drop=+0.000)  INT8=0.753 (drop=+0.815)
+  fusarium_head_blight           FP32=0.922  FP16=0.927 (drop=-0.005)  INT8=0.902 (drop=+0.859)
+  healthy                        FP32=0.953  FP16=0.953 (drop=+0.000)  INT8=0.919 (drop=+0.890)
+  leaf_blight                    FP32=0.644  FP16=0.641 (drop=+0.003)  INT8=0.523 (drop=+0.581)
+  mildew                         FP32=0.936  FP16=0.936 (drop=+0.000)  INT8=0.880 (drop=+0.872)
+  mite                           FP32=0.825  FP16=0.819 (drop=+0.005)  INT8=0.784 (drop=+0.761)
+  septoria                       FP32=0.943  FP16=0.935 (drop=+0.009)  INT8=0.870 (drop=+0.880)
+  smut                           FP32=0.797  FP16=0.797 (drop=+0.000)  INT8=0.785 (drop=+0.734)
+  stem_fly                       FP32=0.833  FP16=0.833 (drop=+0.000)  INT8=0.873 (drop=+0.770)
+  tan_spot                       FP32=0.597  FP16=0.594 (drop=+0.003)  INT8=0.413 (drop=+0.534)
+  yellow_rust                    FP32=0.970  FP16=0.968 (drop=+0.003)  INT8=0.916 (drop=+0.907)
+
+======================================================================
+TEST SET RESULTS
+======================================================================
+Accuracy  : 0.8553
+F1 (W)    : 0.8541
+Precision : 0.8548
+Recall    : 0.8553
+AUC       : 0.9879
+
+Per-Class F1:
+  aphid                          0.7857
+  black_rust                     0.7606
+  blast                          0.8352
+  brown_rust                     0.9071
+  common_root_rot                0.8786
+  fusarium_head_blight           0.9223
+  healthy                        0.9533
+  leaf_blight                    0.6442
+  mildew                         0.9357
+  mite                           0.8246
+  septoria                       0.9434
+  smut                           0.7975
+  stem_fly                       0.8333
+  tan_spot                       0.5972
+  yellow_rust                    0.9701
+
+======================================================================
+TEST SET RESULTS
+======================================================================
+Accuracy  : 0.8553
+F1 (W)    : 0.8541
+Precision : 0.8548
+Recall    : 0.8553
+AUC       : 0.9879
+
+Per-Class F1:
+  aphid                          0.7857
+  black_rust                     0.7606
+  blast                          0.8352
+  brown_rust                     0.9071
+  common_root_rot                0.8786
+  fusarium_head_blight           0.9223
+  healthy                        0.9533
+  leaf_blight                    0.6442
+  mildew                         0.9357
+  mite                           0.8246
+  septoria                       0.9434
+  smut                           0.7975
+  stem_fly                       0.8333
+  tan_spot                       0.5972
+  yellow_rust                    0.9701

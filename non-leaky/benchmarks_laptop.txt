@@ -1,0 +1,48 @@
+LAPTOP BENCHMARK REPORT (LOCAL CPU/GPU)
+Date: 2026-05-09
+Environment: Local Laptop (RTX 3050 / Intel CPU)
+================================================================================
+
+1. PERFORMANCE METRICS (ONNX RUNTIME)
+-------------------------------------
+
+MODEL: MobileNetV3-Large
+  Variant | Latency (ms) | Throughput (img/s) | Size (MB)
+  --------|--------------|--------------------|----------
+  FP32    | 3.43         | 291.46             | 16.88
+  FP16    | 3.50         | 285.34             | 8.47
+  INT8*   | 12.64        | 79.08              | 4.43
+
+MODEL: ResNet50
+  Variant | Latency (ms) | Throughput (img/s) | Size (MB)
+  --------|--------------|--------------------|----------
+  FP32    | 19.84        | 50.40              | 94.07
+  FP16    | 18.83        | 53.08              | 47.05
+  INT8*   | 20.17        | 49.56              | 23.70
+
+MODEL: ConvNeXt-Tiny
+  Variant | Latency (ms) | Throughput (img/s) | Size (MB)
+  --------|--------------|--------------------|----------
+  FP32    | 31.81        | 31.43              | 111.40
+  FP16    | 99.97        | 10.00              | 55.77
+  INT8*   | 50.93        | 19.63              | 28.22
+
+
+2. TECHNICAL NOTES & LIMITATIONS (FOR PEER REVIEW)
+--------------------------------------------------
+The results above, specifically for INT8, must be interpreted with the following technical context to ensure academic rigour:
+
+A. INT8 Backend Mismatch (CPU vs. Dedicated Hardware):
+   - The INT8 results were generated using ONNX Runtime's Dynamic Quantization on a general-purpose CPU.
+   - Observation: INT8 is frequently slower than FP32 in these results (e.g., MobileNetV3 3.4ms -> 12.6ms).
+   - Reason: This is a "Backend Mismatch." Unlike dedicated Edge AI hardware (like Jetson Nano's Tensor Cores or DP4A instructions), generic CPU backends often lack optimized INT8 arithmetic pipelines. The overhead of dequantization/repacking during inference exceeds the calculation savings.
+   - Conclusion: The test validates model-size reduction (approx. 75% savings) but does not represent true "INT8 Hardware Acceleration."
+
+B. ConvNeXt FP16 Anomaly:
+   - ConvNeXt-Tiny shows a significant slowdown in FP16 compared to FP32 on this specific backend. This is likely due to lack of optimized FP16 kernels for the custom LayerNorm/Depthwise-Conv structure on the selected CPU provider.
+
+C. Research Value:
+   - These benchmarks serve as a "Control Group" to contrast against the Jetson Nano (Edge) results, where hardware-specific optimization (TensorRT) produces vastly different scaling behaviors.
+
+================================================================================
+Generated from: non_leaky.ipynb

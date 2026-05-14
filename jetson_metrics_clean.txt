@@ -1,0 +1,49 @@
+JETSON NANO TENSORRT BENCHMARK REPORT (UPDATED)
+Date: 2026-05-08 20:38:09 IST
+Hardware: NVIDIA Jetson Nano (4GB)
+Software: TensorRT v8.2.0.1
+================================================================================
+
+1. PERFORMANCE SUMMARY
+----------------------
+
+MODEL: ConvNeXt-Tiny (107 MB)
+-----------------------------
+  Precision | Latency (Mean) | Throughput (img/s) | Status
+  ----------|----------------|--------------------|----------
+  FP32      | 112.53 ms      | 8.88               | Success
+  FP16      | 90.10 ms       | 11.09              | Success
+  INT8      | N/A            | N/A                | FAILED
+
+MODEL: ResNet50 (90 MB)
+-----------------------
+  Precision | Latency (Mean) | Throughput (img/s) | Status
+  ----------|----------------|--------------------|----------
+  FP32      | 53.73 ms       | 18.61              | Success
+  FP16      | 30.10 ms       | 33.22              | Success
+  INT8      | N/A            | N/A                | FAILED
+
+MODEL: MobileNetV3-Large (17 MB)
+--------------------------------
+  Precision | Latency (Mean) | Throughput (img/s) | Status
+  ----------|----------------|--------------------|----------
+  FP32      | 14.15 ms       | 70.66              | Success
+  FP16      | 11.91 ms       | 83.98              | Success
+  INT8      | N/A            | N/A                | FAILED
+
+
+2. CRITICAL FAILURE ANALYSIS: INT8 CALIBRATION
+----------------------------------------------
+Device: Jetson Nano (Maxwell GPU)
+Error Code: Error[1]: Cuda Runtime (unspecified launch failure)
+
+Observations:
+1. Success: MobileNetV3 is now successfully running in FP32/FP16 (likely following the opset adjustment to Opset 11).
+2. Failure: All models failed INT8 calibration with "unspecified launch failure". On 4GB Jetson devices, this is typically a resource exhaustion (Out of Memory) or driver timeout issue during the intensive calibration pass.
+
+Research Insight: 
+The Jetson Nano's shared memory (4GB for both CPU/GPU) is a bottleneck for on-device INT8 quantization calibration. For the research paper, this highlights the necessity of "Host-Side Calibration" (calibrating on a PC and moving the INT8 Cache to the Edge) instead of "On-Device Calibration".
+
+================================================================================
+Report updated and finalized from: jetson_trt_benchmarks.txt
+

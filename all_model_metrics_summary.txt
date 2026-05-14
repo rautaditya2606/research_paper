@@ -1,0 +1,77 @@
+SUMMARY OF MODEL PERFORMANCES (LEAKY VS NON-LEAKY & QUANTISATION)
+================================================================================
+
+1. LEAKY DATASET RESULTS
+========================
+
+MODEL: ConvNeXt-Tiny
+--------------------
+FP32 Accuracy : 0.9107
+INT8 Accuracy : 0.9120
+INT8 Drop     : -0.0013
+F1 (Weighted) : 0.8926
+Precision     : 0.9421
+Recall        : 0.9107
+AUC           : 0.9901
+
+MODEL: ResNet50
+---------------
+FP32 Accuracy : 0.9307
+INT8 Accuracy : 0.9293
+INT8 Drop     : +0.0013
+F1 (Weighted) : 0.9132
+Precision     : 0.9574
+Recall        : 0.9307
+AUC           : 0.9826
+
+MODEL: MobileNetV3-Large
+------------------------
+FP32 Accuracy : 0.9213
+INT8 Accuracy : 0.9013
+INT8 Drop     : +0.0200
+F1 (Weighted) : 0.9039
+Precision     : 0.9484
+Recall        : 0.9213
+AUC           : 0.9834
+
+
+2. NON-LEAKY (CLEAN) DATASET RESULTS
+====================================
+
+MODEL: ConvNeXt-Tiny
+--------------------
+FP32 Accuracy : 0.8846
+INT8 Accuracy : 0.8828
+INT8 Drop     : +0.0018
+F1 (Weighted) : 0.8838
+Precision     : 0.8843
+Recall        : 0.8846
+AUC           : 0.9896
+
+MODEL: ResNet50
+---------------
+FP32 Accuracy : 0.8553
+INT8 Accuracy : 0.7919
+INT8 Drop     : +0.0634
+F1 (Weighted) : 0.8541
+Precision     : 0.8548
+Recall        : 0.8553
+AUC           : 0.9879
+
+MODEL: MobileNetV3-Large
+------------------------
+FP32 Accuracy : 0.8553
+INT8 Accuracy : 0.3104
+INT8 Drop     : +0.5449
+F1 (Weighted) : 0.8556
+Precision     : 0.8567
+Recall        : 0.8553
+AUC           : 0.9864
+
+================================================================================
+Generated on: 2026-05-08 17:45:00
+Notes: 
+- 'Leaky' refers to the original dataset with cross-split leakage.
+- 'Non-Leaky' refers to the deduplicated and stratified re-split dataset.
+- INT8 Accuracy refers to dynamic quantization performance.
+- Accuracy values are on the respective Test Sets.

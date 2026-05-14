@@ -1,1 +1,27 @@
 data/
+# Models
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+
+# ML artifacts
+checkpoints/
+models/
+artifacts/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+target/
+node_modules/
+
+# Archives
+*.tar.gz
+*.zip

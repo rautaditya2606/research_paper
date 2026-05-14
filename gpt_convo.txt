@@ -1,0 +1,147 @@
+Working Title
+
+Data Leakage, Class Imbalance, and Edge Deployment Trade-offs in Wheat Disease Classification: A Systematic Study Across CPU and Embedded GPU Systems
+
+Paper Description (Structured in Phases)
+Phase 1 — Dataset Audit and Integrity Analysis
+
+This phase establishes the foundation of the study by systematically evaluating the reliability of the wheat disease dataset used in prior benchmarks. The primary objective is to detect and quantify dataset contamination that can artificially inflate model performance.
+
+A full data auditing pipeline is implemented with two complementary duplicate detection strategies:
+
+Exact duplicate detection using MD5 hashing
+Near-duplicate detection using perceptual hashing (pHash via imagehash)
+
+These methods are applied across train, validation, and test splits to identify cross-split overlap. The analysis quantifies the extent of data leakage, revealing that a non-trivial portion of validation and test samples originate from training distributions or near-identical images (same leaf under different transformations).
+
+Following detection, leakage is explicitly measured as a percentage of overlapping samples across splits, providing a quantitative measure of dataset contamination. This step establishes that prior reported benchmark results are partially inflated due to structural dataset issues rather than model capability.
+
+Additionally, class distribution analysis is performed to evaluate imbalance severity. Histograms of class frequencies reveal skewed representation across disease categories, indicating that standard accuracy metrics are insufficient for reliable evaluation.
+
+Phase 2 — Dataset Correction and Re-Splitting Strategy
+
+To eliminate identified bias sources, a fully clean dataset construction pipeline is introduced.
+
+The dataset is reconstructed using:
+
+Stratified train/validation/test splitting (70/15/15)
+Fixed random seed for reproducibility
+Class-aware balancing during split generation
+
+Unlike prior datasets, no overlapping images are allowed across splits after deduplication. This ensures strict independence between evaluation subsets.
+
+Class imbalance is addressed using:
+
+Class-weighted cross-entropy loss
+No oversampling or synthetic augmentation to preserve natural distribution characteristics
+
+This phase produces a reproducible and leakage-free benchmark dataset, which is used for all downstream model training and evaluation.
+
+Phase 3 — Model Training and Controlled Evaluation
+
+A controlled benchmarking setup is used to ensure fair comparison across architectures. The following models are evaluated:
+
+ResNet50
+MobileNetV3 (Small and Large variants)
+ConvNeXt-Tiny
+(Optional extension: EfficientNet-B0)
+
+All models are trained under identical conditions:
+
+ImageNet pretrained initialization
+AdamW optimizer
+Cosine learning rate scheduling
+Two-stage training (frozen backbone → full fine-tuning)
+Uniform augmentation pipeline:
+Horizontal flip
+±15° rotation
+Color jitter
+
+Evaluation is performed using multiple metrics:
+
+Accuracy
+Precision / Recall / F1-score (macro and weighted)
+AUC-ROC
+Confusion matrix analysis per class
+
+Special attention is given to class-wise performance degradation, particularly for minority disease classes such as Yellow Rust, which are shown to be disproportionately affected by both leakage correction and quantization.
+
+Phase 4 — Model Export and Quantization Pipeline
+
+To evaluate deployment feasibility, all trained models are exported into ONNX format (opset 17). A standardized pipeline is used:
+
+PyTorch model export to ONNX with dynamic input shapes
+ONNX simplification for computational graph optimization
+Validation of numerical consistency between PyTorch and ONNX outputs
+
+Quantization is performed through a hybrid strategy to address architectural and hardware constraints:
+
+1. Static QDQ Quantization: Applied to ResNet50, utilizing calibration data to maximize precision (achieving 0.8343 accuracy).
+2. Dynamic Quantization: Utilized for architectures sensitive to static calibration or characterized by high optimization-time memory overhead (ConvNeXt-Tiny, MobileNetV3).
+3. TensorRT INT8 Calibration: Hardware-accelerated evaluation on the Jetson Nano.
+
+FP16 and FP32 variants are also generated where supported by hardware.
+
+A key observation is that quantization effects and feasibility are highly architecture-dependent. While ResNet50 demonstrates robustness, depthwise convolution-heavy models (e.g., MobileNetV3) exhibit higher sensitivity to INT8 conversion and can produce graph-level incompatibilities during static optimization cycles. Additionally, the study documents the "Price of Optimization," noting that static calibration memory requirements can exceed standard workstation limits (OOM) for complex architectures.
+
+Phase 5 — Edge Deployment Benchmarking
+
+A cross-platform benchmarking framework is developed to evaluate real-world inference performance under constrained hardware conditions.
+
+Three deployment environments are used:
+
+1. Laptop (x86 CPU, ONNX Runtime)
+Baseline CPU inference system
+No GPU acceleration
+Used as reference compute environment
+2. Jetson Nano (ARM + CUDA + TensorRT 8.2.1)
+FP32, FP16, and INT8 inference via TensorRT
+GPU-accelerated edge AI evaluation
+Primary embedded deployment platform
+3. Raspberry Pi 4 (ARM Cortex-A72, CPU-only)
+ONNX Runtime CPU inference
+No GPU or CUDA support
+Represents ultra-low-cost deployment constraint
+
+Each configuration is evaluated using:
+
+Mean inference latency
+Throughput (images/sec where applicable)
+Model size comparison
+Runtime stability (failure cases logged explicitly)
+
+Jetson experiments demonstrate significant FP16 acceleration benefits, while INT8 shows unstable behavior for certain architectures due to calibration sensitivity and unsupported operator mappings in TensorRT.
+
+Raspberry Pi serves as a strict computational lower bound, where model efficiency becomes the dominant constraint over accuracy.
+
+Phase 6 — Cross-Platform Analysis and Key Findings
+
+The study reveals that model performance ranking is not invariant across deployment environments.
+
+Key findings include:
+
+Quantization benefits are not universally consistent across architectures; static calibration can improve metrics for residual networks but introduce failures in depthwise-heavy models.
+The "Optimization Bottleneck": Static quantization introduces significant memory overhead (leading to OOM) and operator support gaps (invalid graph errors) that vary by architecture.
+FP16 provides stable acceleration on Jetson Nano, especially for convolution-heavy models.
+INT8 introduces instability in certain models due to calibration and operator limitations (e.g., Unrecognized attribute: axis for DequantizeLinear).
+MobileNetV3 achieves the best latency-throughput trade-off on embedded GPU hardware despite being the most sensitive to quantization.
+ConvNeXt achieves highest accuracy but suffers from poor edge efficiency.
+ResNet50 provides the most stable balance across accuracy and deployment cost.
+
+A critical observation is that CPU-based quantization does not guarantee speedup and can introduce overhead, particularly on x86 and ARM CPU-only systems.
+
+Final Scientific Outcome
+
+This study demonstrates three core findings:
+
+Dataset leakage significantly inflates performance metrics in agricultural vision benchmarks, making prior evaluations unreliable without strict dataset auditing.
+Quantization and compression techniques are highly architecture-dependent and cannot be treated as universally beneficial optimization steps.
+Real-world edge deployment performance is determined by a combined interaction between model architecture, hardware backend, and precision strategy, not accuracy alone.
+Reproducibility
+
+The study is fully reproducible with:
+
+Cleaned dataset splits (CSV format)
+ONNX-exported models
+Benchmarking scripts for all hardware platforms
+Logged evaluation metrics across precision modes
