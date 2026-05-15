@@ -100,14 +100,14 @@ This logarithmic scaling of FPS rewards throughput relevant to real-time control
 *(Note: DES values recalculated using the ln(FPS) metric: 0.8254 * ln(54.46) ≈ 3.30)*
 
 #### Table 5.2b: Raspberry Pi 5 (ARM Cortex-A76)
-| Architecture | Precision | Latency (ms) | Throughput (FPS) | Accuracy | F1 Macro | DES |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| MobileNetV3-L | FP32 | 14.69 | 68.06 | 85.47% | 84.38% | 3.61 |
-| MobileNetV3-L | INT8 | 32.55 | 30.72 | 41.69% | 43.80% | 1.43 |
-| **ResNet50** | **FP32** | **107.66** | **9.29** | **85.35%** | **83.79%** | **1.90** |
-| ResNet50 | INT8 | 30.80 | 32.47 | 82.83% | 80.95% | 2.88 |
-| **ConvNeXt-Tiny** | **FP32** | **151.86** | **6.59** | **88.10%** | **86.80%** | **1.66** |
-| ConvNeXt-Tiny | INT8 | 154.64 | 6.47 | 88.16% | 86.85% | 1.65 |
+| Architecture | Precision | Latency (ms) | Throughput (FPS) | Peak RAM (MB) | Accuracy | F1 Macro | DES |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| MobileNetV3-L | FP32 | 14.88 | 67.21 | 89.1 | 85.47% | 84.38% | 3.61 |
+| MobileNetV3-L | INT8 | 32.58 | 30.69 | 92.9 | 41.69% | 43.80% | 1.43 |
+| **ResNet50** | **FP32** | **109.23** | **9.15** | **175.8** | **85.35%** | **83.79%** | **1.89** |
+| ResNet50 | INT8 | 31.31 | 31.94 | 118.1 | 82.83% | 80.95% | 2.88 |
+| **ConvNeXt-Tiny** | **FP32** | **153.87** | **6.50** | **289.3** | **88.10%** | **86.80%** | **1.66** |
+| ConvNeXt-Tiny | INT8 | 155.75 | 6.42 | 143.7 | 88.16% | 86.85% | 1.65 |
 
 ![Accuracy Comparison Edge](accuracy_comparison_edge.png)
 *Figure 5.5: Comparison of Accuracy Stability between Jetson Nano (Entropy Calibrated) and Raspberry Pi 5 (Dynamic Quantization).*
@@ -121,7 +121,7 @@ The accuracy collapse observed in MobileNetV3-L (85.5% $\to$ 31.0% on Laptop, 41
 ![MobileNetV3 F1 Collapse](mnv3_f1_collapse.png)
 *Figure 5.7: Per-class F1-score breakdown showing the catastrophic non-uniform collapse of MobileNetV3-L under dynamic quantization.*
 
-*Note: DES calculated as Accuracy $\times \ln(FPS)$. ConvNeXt-Tiny exhibits remarkable stability under INT8 quantization on ARM, while MobileNetV3-L experiences a catastrophic collapse (85.47% $\to$ 41.69%) on the RPi 5 CPU backend.*
+*Note: DES calculated as Accuracy $\times \ln(FPS)$. ConvNeXt-Tiny exhibits remarkable stability and nearly 50% memory reduction (289.3 MB $\to$ 143.7 MB) under INT8 quantization on ARM, while MobileNetV3-L experiences a catastrophic collapse (85.47% $\to$ 41.69%) without memory gains.*
 
 #### Table 5.2c: Laptop Benchmark (ONNX Runtime CPU)
 | Architecture | Precision | Latency | Throughput | Model Size |
@@ -141,7 +141,12 @@ A critical observation in our CPU-based benchmarks (Tables 5.2b and 5.2c) is the
 
 This anomaly is not inherently a limitation of integer math, but rather a result of **ONNX Runtime's Quantization Overhead** on hardware with limited INT8 acceleration. The ARM Cortex-A76 processor lacks a dedicated matrix multiply unit (found in newer A78 or V9 cores), forcing the runtime to handle dequantization and requantization for each operator. These "fallback" penalties often eclipse the theoretical cycles saved by 8-bit operations. Consequently, for these architectures on RPi 5, FP32 remains the superior deployment choice for low-latency robotics.
 
-### 6.2 The Dominance of Quantization Strategy over Architecture
+### 6.2 The Memory-Accuracy Trade-off in Modern Backbones
+The inclusion of Peak RAM metrics (Table 5.2b) reveals a secondary dimension of quantization utility: **Memory Preservation**. For ConvNeXt-Tiny, INT8 quantization yielded a massive ~50% reduction in working memory (289.3 MB $\to$ 143.7 MB) without sacrificing accuracy. This makes it an ideal candidate for memory-constrained edge nodes where multiple models or concurrent processing tasks must share limited RAM. 
+
+Conversely, MobileNetV3-L demonstrated the "worst of both worlds" on the RPi 5, where INT8 quantization resulted in a slight *increase* in peak RAM usage (likely due to the dequantization buffers required by ONNX Runtime) while simultaneously collapsing in accuracy. This further cements the conclusion that architectural lightness does not guarantee quantization robustness.
+
+### 6.3 The Dominance of Quantization Strategy over Architecture
 The severe degradation of MobileNetV3-Large (31.04% accuracy) under dynamic quantization was initially misattributed to architectural fragility. However, the subsequent restoration to 82.54% using entropy calibration reveals a critical insight: **quantization strategy dominates architectural sensitivity**. Depthwise-separable convolutions, while computationally efficient, possess high activation variance that stochastic dynamic scaling cannot capture. Entropy-based calibration provides a global statistical anchor, proving that lightweight models are viable for edge deployment if paired with backend-aware optimization.
 
 ### 6.4 Impact of Class-Weighted Loss on Rare Pathogens
