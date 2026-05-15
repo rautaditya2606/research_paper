@@ -1,0 +1,82 @@
+Per-Class F1:
+  aphid                          0.8249
+  black_rust                     0.7481
+  blast                          0.8235
+  brown_rust                     0.8841
+  common_root_rot                0.8242
+  fusarium_head_blight           0.9538
+  healthy                        0.9316
+  leaf_blight                    0.7080
+  mildew                         0.9621
+  mite                           0.7733
+  septoria                       0.9126
+  smut                           0.8280
+  stem_fly                       0.9231
+  tan_spot                       0.5936
+  yellow_rust                    0.9704
+
+======================================================================
+QUANTISATION RESULTS (INT8)
+======================================================================
+FP32 Accuracy : 0.8553
+--
+Per-Class F1:
+  aphid                          0.8249
+  black_rust                     0.7481
+  blast                          0.8235
+  brown_rust                     0.8841
+  common_root_rot                0.8242
+  fusarium_head_blight           0.9538
+  healthy                        0.9316
+  leaf_blight                    0.7080
+  mildew                         0.9621
+  mite                           0.7733
+  septoria                       0.9126
+  smut                           0.8280
+  stem_fly                       0.9231
+  tan_spot                       0.5936
+  yellow_rust                    0.9704
+
+======================================================================
+QUANTISATION RESULTS (INT8)
+======================================================================
+FP32 Accuracy : 0.8553
+--
+Per-Class F1:
+  aphid                          0.8249
+  black_rust                     0.7481
+  blast                          0.8235
+  brown_rust                     0.8841
+  common_root_rot                0.8242
+  fusarium_head_blight           0.9538
+  healthy                        0.9316
+  leaf_blight                    0.7080
+  mildew                         0.9621
+  mite                           0.7733
+  septoria                       0.9126
+  smut                           0.8280
+  stem_fly                       0.9231
+  tan_spot                       0.5936
+  yellow_rust                    0.9704
+
+======================================================================
+TEST SET RESULTS
+======================================================================
+Accuracy  : 0.8553
+--
+Per-Class F1:
+  aphid                          0.8249
+  black_rust                     0.7481
+  blast                          0.8235
+  brown_rust                     0.8841
+  common_root_rot                0.8242
+  fusarium_head_blight           0.9538
+  healthy                        0.9316
+  leaf_blight                    0.7080
+  mildew                         0.9621
+  mite                           0.7733
+  septoria                       0.9126
+  smut                           0.8280
+  stem_fly                       0.9231
+  tan_spot                       0.5936
+  yellow_rust                    0.9704

@@ -1,0 +1,21 @@
+Per-Class F1:
+  aphid                          0.9901
+  black_rust                     0.9697
+  blast                          0.9804
+  brown_rust                     0.9804
+  common_root_rot                0.9901
+  fusarium_head_blight           1.0000
+  healthy                        0.1481
+  leaf_blight                    0.9216
+  mildew                         0.9899
+  mite                           1.0000
+  septoria                       0.9691
+  smut                           0.9899
+  stem_fly                       0.9800
+  tan_spot                       0.9505
+  yellow_rust                    0.6993
+
+======================================================================
+QUANTISATION RESULTS (INT8)
+======================================================================
+FP32 Accuracy : 0.9213

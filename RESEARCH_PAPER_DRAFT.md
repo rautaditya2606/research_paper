@@ -36,7 +36,7 @@ The primary dataset consists of 14,154 images across 15 distinct classes of whea
 ### 3.2 Imbalance Mitigation and Statistical Validation
 To handle class imbalance inherent in the deduplicated 15-class set (imbalance ratio of ~4.1x), we implemented **Class-Weighted Cross-Entropy Loss**. Loss weights were calculated inversely to the training counts: $w_i = N / (C \times n_i)$, where $N$ is the total samples, $C$ the number of classes, and $n_i$ the count for class $i$.
 
-To validate the impact of dataset cleaning, we conducted a Wilcoxon Signed-Rank test on the class-wise F1 scores of models trained on the "Leaky" vs. "Clean" datasets. The results yielded a W-statistic of 92.0 and a p-value of 0.0365, confirming a statistically significant performance shift when the memorization baseline was removed. This shift demonstrates that previous benchmarks largely measured dataset redundancy rather than generalizable pathological features.
+To validate the impact of dataset cleaning, we conducted a Wilcoxon Signed-Rank test on the class-wise F1 scores of models trained on the "Leaky" vs. "Clean" datasets. We utilized a one-sided alternative hypothesis ($H_1: \text{F1}_{\text{leaky}} > \text{F1}_{\text{clean}}$), specifically testing the premise that cross-split contamination artificially inflates performance metrics. The results yielded a W-statistic of 92.0 and a p-value of 0.0365 ($p < 0.05$), formally confirming a statistically significant performance shift when the memorization baseline was removed. This result demonstrates that previous benchmarks largely measured dataset redundancy rather than generalizable pathological features.
 
 ### 3.3 The Tan Spot Bottleneck
 Following deduplication, we observed a localized performance deficit in the `tan_spot` class, which averaged an F1-score of merely 0.60. A systematic audit reveals that visual similarity with `leaf_blight` and label scarcity following deduplication were the primary drivers of this bottleneck.
@@ -62,7 +62,7 @@ The primary technical contribution of this study is the development of a **Host-
 Models were trained for 30 epochs using the AdamW optimizer (LR=1e-4). We implemented a **Freeze-then-Finetune** strategy: the pre-trained backbone was frozen for the first 5 epochs, allowing the randomly initialized classification head to converge without distorting pre-trained feature maps. This was followed by a full unfreeze and a **Cosine Annealing Learning Rate Schedule** for the remaining 25 epochs. This approach ensures a smoother convergence path, particularly for the depthwise-separable layers of MobileNetV3, which are sensitive to high initial learning rates.
 
 ![Training Curves](non-leaky/training_curves.png)
-*Figure 4.1: Training and validation loss/accuracy curves for the clean dataset.*
+*Figure 4.1: Training and validation loss/accuracy curves for the clean dataset across the three candidate architectures.*
 
 ---
 
@@ -84,16 +84,14 @@ Earlier experiments suggested that MobileNetV3 was architecturally fragile to qu
 | **Dynamic INT8 (ONNX CPU)**| 31.04% | 79.19% | 88.28% |
 | **Calibrated INT8 (TRT)** | **82.54%** | **82.89%** | **85.05%** |
 
-*Note: The identical FP32 baseline of 85.53% for ResNet50 and MobileNetV3-L is a result of coincidental convergence on the specific 15-class clean dataset, confirmed across multiple seeds. FP16 results demonstrate near-zero accuracy loss compared to FP32 baselines.*
-
-*Note: FP16 results demonstrate near-zero accuracy loss compared to FP32 baselines, maintaining 85.41% for ResNet50/MobileNetV3 and 88.46% for ConvNeXt-Tiny, while unlocking secondary optimization paths on Maxwell-based hardware.*
+*Note: The identical FP32 baseline of 85.53% for ResNet50 and MobileNetV3-L is a result of coincidental convergence on the specific 15-class clean dataset, confirmed across multiple seeds. FP16 results demonstrate near-zero accuracy loss compared to FP32 baselines, maintaining ~85.4% for ResNet50/MobileNetV3 and 88.4% for ConvNeXt-Tiny, while unlocking secondary optimization paths on Maxwell-based hardware.*
 
 ### 5.2 The Deployment Efficiency Score (DES)
 To quantify the trade-off between predictive power and robotic utility, we define the **Deployment Efficiency Score (DES)** as:
 
 $$DES = Accuracy \times \ln(FPS)$$
 
-This logarithmic scaling of FPS reflects the diminishing returns of raw throughput beyond fluid control rates. In agricultural robotics, the difference between 5 and 10 FPS is critical for motion planning, whereas the difference between 100 and 105 FPS is statistically negligible for standard control loops. By using $\ln(FPS)$, we penalize architectures that fail to achieve real-time thresholds while preventing extremely high-throughput models from masking mediocre accuracy.
+This logarithmic scaling of FPS reflects the diminishing returns of raw throughput beyond fluid control rates. For example, a MobileNetV3-L model achieving 54.46 FPS with 82.54% accuracy yields a $DES = 0.8254 \times \ln(54.46) \approx 3.30$. In agricultural robotics, the difference between 5 and 10 FPS is critical for motion planning, whereas the difference between 100 and 105 FPS is statistically negligible for standard control loops. By using $\ln(FPS)$, we penalize architectures that fail to achieve real-time thresholds while preventing extremely high-throughput models from masking mediocre accuracy.
 
 #### Table 5.2a: NVIDIA Jetson Nano (TensorRT)
 | Architecture | Precision | Latency | Throughput | Peak VRAM | Accuracy | DES |
@@ -106,9 +104,6 @@ This logarithmic scaling of FPS reflects the diminishing returns of raw throughp
 | ConvNeXt-Tiny | FP16 | 90.10 ms | 11.09 FPS | 408 MB | 0.8846 | 2.13 |
 
 ![Benchmarking Results](non-leaky/benchmarking_results.png)
-*Figure 5.4: Throughput and latency benchmarks on NVIDIA Jetson Nano.*
-
-*(Note: DES values recalculated using the ln(FPS) metric: 0.8254 * ln(54.46) ≈ 3.30)*
 
 #### Table 5.2b: Raspberry Pi 5 (ARM Cortex-A76)
 | Architecture | Precision | Latency (ms) | Throughput (FPS) | Peak RAM (MB) | Accuracy | F1 Macro | DES |
