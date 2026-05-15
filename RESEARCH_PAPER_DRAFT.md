@@ -99,13 +99,29 @@ This logarithmic scaling of FPS rewards throughput relevant to real-time control
 
 *(Note: DES values recalculated using the ln(FPS) metric: 0.8254 * ln(54.46) ≈ 3.30)*
 
-#### Table 5.2b: Raspberry Pi 5 (Placeholder)
-| Architecture | Precision | Latency | Throughput | Accuracy |
-| :--- | :--- | :--- | :--- | :--- |
-| MobileNetV3-L | FP32 | — | — | — |
-| ResNet50 | FP32 | — | — | — |
-| ConvNeXt-Tiny | FP32 | — | — | — |
-Raspberry Pi 5 benchmarks pending static INT8 ONNX calibration. Results to be incorporated prior to final submission.
+#### Table 5.2b: Raspberry Pi 5 (ARM Cortex-A76)
+| Architecture | Precision | Latency (ms) | Throughput (FPS) | Accuracy | F1 Macro | DES |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| MobileNetV3-L | FP32 | 14.69 | 68.06 | 85.47% | 84.38% | 3.61 |
+| MobileNetV3-L | INT8 | 32.55 | 30.72 | 41.69% | 43.80% | 1.43 |
+| **ResNet50** | **FP32** | **107.66** | **9.29** | **85.35%** | **83.79%** | **1.90** |
+| ResNet50 | INT8 | 30.80 | 32.47 | 82.83% | 80.95% | 2.88 |
+| **ConvNeXt-Tiny** | **FP32** | **151.86** | **6.59** | **88.10%** | **86.80%** | **1.66** |
+| ConvNeXt-Tiny | INT8 | 154.64 | 6.47 | 88.16% | 86.85% | 1.65 |
+
+![Accuracy Comparison Edge](accuracy_comparison_edge.png)
+*Figure 5.5: Comparison of Accuracy Stability between Jetson Nano (Entropy Calibrated) and Raspberry Pi 5 (Dynamic Quantization).*
+
+![Throughput Comparison Edge](throughput_comparison_edge.png)
+*Figure 5.6: Throughput performance comparison (FPS) across architectures on Jetson Nano and Raspberry Pi 5.*
+
+### 5.3 Diagnostic Analysis of Quantization Failure
+The accuracy collapse observed in MobileNetV3-L (85.5% $\to$ 31.0% on Laptop, 41.7% on RPi 5) is not uniform across classes. As shown in Figure 5.7, certain classes like `septoria` (F1-score: 0.91 $\to$ 0.00) and `yellow_rust` (F1-score: 0.97 $\to$ 0.13) exhibited a total loss of predictive power under dynamic quantization. This suggests that the depthwise-separable layers in MobileNetV3-L contribute to a highly volatile activation range that dynamic scaling fails to accommodate, particularly for features representative of fungal rusts.
+
+![MobileNetV3 F1 Collapse](mnv3_f1_collapse.png)
+*Figure 5.7: Per-class F1-score breakdown showing the catastrophic non-uniform collapse of MobileNetV3-L under dynamic quantization.*
+
+*Note: DES calculated as Accuracy $\times \ln(FPS)$. ConvNeXt-Tiny exhibits remarkable stability under INT8 quantization on ARM, while MobileNetV3-L experiences a catastrophic collapse (85.47% $\to$ 41.69%) on the RPi 5 CPU backend.*
 
 #### Table 5.2c: Laptop Benchmark (ONNX Runtime CPU)
 | Architecture | Precision | Latency | Throughput | Model Size |
@@ -121,7 +137,9 @@ Raspberry Pi 5 benchmarks pending static INT8 ONNX calibration. Results to be in
 
 ## 6. Discussion: Systems Analysis of Edge Deployment
 ### 6.1 The Efficiency Paradox: Computational Overhead in Dynamic Quantization
-A critical observation in our CPU-based benchmarks (Table 5.2c) is the performance penalty often associated with dynamic quantization. On general-purpose laptop CPUs, INT8 inference is frequently *slower* than FP32. This is not inherently a limitation of integer math, but rather a result of **ONNX Runtime Dynamic Overhead**. Current x86 CPUs lacking specialized VNNI (Vector Neural Network Instructions) or DP4A kernels must perform on-the-fly range estimation, dequantization, and requantization for each operator. These "fallback" penalties often eclipse the theoretical cycles saved by 8-bit operations.
+A critical observation in our CPU-based benchmarks (Tables 5.2b and 5.2c) is the performance penalty often associated with dynamic quantization. On both the Raspberry Pi 5 (Cortex-A76) and general-purpose laptop CPUs, INT8 inference was frequently *slower* than FP32 for certain architectures like MobileNetV3-L and ConvNeXt-Tiny. 
+
+This anomaly is not inherently a limitation of integer math, but rather a result of **ONNX Runtime's Quantization Overhead** on hardware with limited INT8 acceleration. The ARM Cortex-A76 processor lacks a dedicated matrix multiply unit (found in newer A78 or V9 cores), forcing the runtime to handle dequantization and requantization for each operator. These "fallback" penalties often eclipse the theoretical cycles saved by 8-bit operations. Consequently, for these architectures on RPi 5, FP32 remains the superior deployment choice for low-latency robotics.
 
 ### 6.2 The Dominance of Quantization Strategy over Architecture
 The severe degradation of MobileNetV3-Large (31.04% accuracy) under dynamic quantization was initially misattributed to architectural fragility. However, the subsequent restoration to 82.54% using entropy calibration reveals a critical insight: **quantization strategy dominates architectural sensitivity**. Depthwise-separable convolutions, while computationally efficient, possess high activation variance that stochastic dynamic scaling cannot capture. Entropy-based calibration provides a global statistical anchor, proving that lightweight models are viable for edge deployment if paired with backend-aware optimization.
